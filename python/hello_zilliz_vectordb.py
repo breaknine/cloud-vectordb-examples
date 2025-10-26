@@ -1,3 +1,12 @@
+""" 
+（Zilliz Cloud 免费版 / Free 版本）
+
+存储：5 GB。
+
+每月计算额度：250 万 vCU（用于 search/query/insert/delete 等读写消耗）。
+
+Collection 数量上限：5 个。
+"""
 import configparser
 import time
 import random

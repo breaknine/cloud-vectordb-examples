@@ -19,8 +19,8 @@ const { uri, user, password, token } = config;
 console.info(`Connecting to DB: ${uri}`);
 const client = new MilvusClient({
   address: uri,
-  username: user,
-  password: password,
+//   username: user,
+//   password: password,
   token,
 });
 
